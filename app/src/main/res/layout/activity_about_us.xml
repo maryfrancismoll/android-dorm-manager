@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="116dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:text="@string/label_company"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="231dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:paddingStart="5dp"
+            android:text="@string/company_name"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCompanyDescription"
+        android:layout_width="216dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/company_accommodation_description" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="116dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:text="@string/label_company_contact_number"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewContactNumber"
+            android:layout_width="139dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:paddingStart="5dp"
+            android:text="@string/company_contact_number"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_message_company"
+            android:layout_width="36dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/sms" />
+
+        <Button
+            android:id="@+id/button_phone_company"
+            android:layout_width="34dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/phone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="116dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:text="@string/label_company_email_address"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewEmailAddress"
+            android:layout_width="186dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:paddingStart="5dp"
+            android:text="@string/company_email_address"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_email_company"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="116dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:text="@string/label_company_address"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewAddress"
+            android:layout_width="186dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:paddingStart="5dp"
+            android:text="@string/company_address"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/map"
+            android:onClick="viewMap" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="116dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:text="@string/label_company_website"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textViewWebsite"
+            android:layout_width="181dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|start"
+            android:paddingStart="5dp"
+            android:text="@string/company_website"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_browse_site"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/arrow"
+            android:onClick="viewWebsite" />
+    </LinearLayout>
+
+</LinearLayout>

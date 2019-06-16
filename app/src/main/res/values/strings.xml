@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Dorm Managing App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="manage_dorm">Manage Dorm</string>
+
+    <string name="residents">Residents</string>
+    <string name="personnel">Personnel</string>
+    <string name="equipment">Equipment</string>
+    <string name="events">Events</string>
+
+    <!-- common -->
+    <string name="resident_view">View</string>
+    <string name="invalid_email">Invalid email address.</string>
+    <string name="label_firstname">Firstname</string>
+    <string name="label_lastname">Lastname</string>
+    <string name="email_address">Email</string>
+    <string name="label_mobile_number">Mobile #</string>
+    <string name="label_gender">Gender</string>
+    <string name="date_format">yyyy-MM-dd</string>
+
+    <!-- Home -->
+    <string name="happening_today">Today\'s Events</string>
+    <string name="Previous">Previous</string>
+    <string name="Next">Next</string>
+    <string name="no_events_today">No events today.</string>
+
+    <!-- resident -->
+    <string name="resident_new">Register New Resident</string>
+
+    <string name="label_room_number">Room #</string>
+    <string name="label_address_street">Street Address</string>
+    <string name="save">Save</string>
+    <string name="label_move_in_date">Move In</string>
+    <string name="label_move_out_date">Move Out</string>
+    <string name="student_id">Student ID</string>
+    <string name="label_birthdate">Birthdate</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="resident_programme">Programme</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+
+    <!-- resident messages -->
+    <string name="resident_not_created">Resident was not created. Please try again.</string>
+    <string name="resident_details_not_saved">Resident details was not saved. Please try again.</string>
+    <string name="tap_for_photo">Long tap to add photo.</string>
+
+    <!-- personnel -->
+    <string name="register_new_personnel">Register New Personnel</string>
+    <string name="new_personnel">New Personnel</string>
+
+    <string name="employee_id">Employee ID</string>
+    <string name="employment_type">Type</string>
+
+    <!-- personnel messages -->
+    <string name="personnel_unable_to_create">Personnel was not registered. Please try again.</string>
+    <string name="personnel_registered">Personnel was successfully registered.</string>
+    <string name="personnel_details_updated">Personnel details were successfully updated.</string>
+    <string name="personnel_unable_to_update">Personnel details was not updated. Please try again.</string>
+
+    <!-- events -->
+    <string name="create_new_event">Create New Event</string>
+    <string name="event_details">Event Details</string>
+    <string name="new_event">New Event</string>
+    <string name="event_title">Title</string>
+    <string name="event_date">Date</string>
+    <string name="event_time">Time</string>
+    <string name="event_type">Type</string>
+    <string name="event_relation">Relation</string>
+    <string name="event_for_model">For</string>
+
+    <!-- event messages -->
+    <string name="event_unable_to_create">Event was not created. Please try again.</string>
+    <string name="event_created">Event was successfully created.</string>
+    <string name="event_details_updated">Event details were successfully updated.</string>
+    <string name="event_unable_to_update">Event details were not updated. Please try again.</string>
+    <string name="of">Of</string>
+
+    <!-- equipment -->
+    <string name="create_new_equipment">Register Equipment</string>
+    <string name="new_equipment">Equipment Details</string>
+    <string name="equipment_code">Code</string>
+    <string name="equipment_name">Name</string>
+    <string name="equipment_serial_number">Serial Number</string>
+    <string name="equipment_year_purchased">Year Purchased</string>
+    <string name="equipment_brand">Brand</string>
+
+    <!-- event messages -->
+    <string name="equipment_unable_to_register">Equipment was not registered. Please try again.</string>
+    <string name="equipment_registered">Equipment was successfully registered.</string>
+    <string name="equipment_details_updated">Equipment details were successfully updated.</string>
+    <string name="equipment_unable_to_update">Equipment details were not updated. Please try again.</string>
+
+    <!-- about us -->
+    <string name="company_name">Auckland Institute of Studies</string>
+    <string name="company_accommodation_description">AIS Dormitory has three floors that can house more than 200 residents who are studying at its educational institute.</string>
+    <string name="company_contact_number">+642283849494</string>
+    <string name="company_email_address">dormitory@ais.ac.nz</string>
+    <string name="company_address">28A Linwood Avenue, Mt. Albert, Auckland, New Zealand</string>
+    <string name="company_website">http://www.ais.ac.nz</string>
+    <string name="label_company">Company</string>
+    <string name="label_company_contact_number">Contact Number</string>
+    <string name="label_company_email_address">Email Address</string>
+    <string name="label_company_address">Address</string>
+    <string name="label_company_website">Website</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="about_ompany">About AIS Dorm</string>
+
+</resources>

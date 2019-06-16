@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.HappeningTodayFragment">
+
+    <!-- TODO: Update blank fragment layout --><![CDATA[
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    ]]>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/appbackground"
+                    android:text="@string/Previous"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dormee_main" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/happening_today"
+                    android:textColor="@color/dormee_main"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button_next"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:backgroundTint="@color/appbackground"
+                    android:text="@string/Next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dormee_main" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingEnd="30dp"
+                    android:paddingStart="30dp">
+
+                    <TextView
+                        android:id="@+id/textViewEventInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:paddingEnd="30dp"
+                        android:paddingStart="30dp"
+                        android:text="TextView" />
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/buttonManageDorm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appbackground"
+                android:text="@string/manage_dorm"
+                android:textAllCaps="false"
+                android:textColor="@color/dormee_main" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
